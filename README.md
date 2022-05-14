@@ -7,14 +7,12 @@ Your favorite [animate.css](https://animate.style/) effects available as ES modu
 - 🚚 Works with CDNs
 - 🌲 Fully tree-shakeable
 
-[Try it on JSFiddle](https://jsfiddle.net/tovutifunk/ohjmkgb1)
-
 This module was built for [Tovuti](https://prodkt.cloud/), but it works well as a stand-alone library too!
 
 ## Installation
 
 ```bash
-npm install @tovutifunk/animations
+npm install @prodkt/animations
 ```
 
 ## Usage
@@ -22,19 +20,19 @@ npm install @tovutifunk/animations
 Importing all animations:
 
 ```js
-import * as animations from '@tovutifunk/animations';
+import * as animations from '@prodkt/animations';
 ```
 
 Importing individual animations:
 
 ```js
-import { bounce } from '@tovutifunk/animations';
+import { bounce } from '@prodkt/animations';
 ```
 
 Importing easings:
 
 ```js
-import { easings } from '@tovutifunk/animations';
+import { easings } from '@prodkt/animations';
 ```
 
 Animating an element:
@@ -43,7 +41,7 @@ Animating an element:
 <div style="display: block; width: 100px; height: 100px; background: tomato; margin: 2rem;"></div>
 
 <script type="module">
-  import { easings, flip } from 'https://cdn.jsdelivr.net/npm/@tovutifunk/animations@1/dist/index.js';
+  import { easings, flip } from 'https://cdn.jsdelivr.net/npm/@prodkt/animations@1/dist/index.js';
 
   const box = document.querySelector('div');
 
@@ -55,7 +53,7 @@ Animating an element:
 </script>
 ```
 
-This example uses the [jsDelivr CDN](https://www.jsdelivr.com/). To import the library locally, install it and make `node_modules/@tovutifunk/animations/dist` available to your app or bundler.
+This example uses the [jsDelivr CDN](https://www.jsdelivr.com/). To import the library locally, install it and make `node_modules/@prodkt/animations/dist` available to your app or bundler.
 
 ## Developers
 
