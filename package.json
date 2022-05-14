@@ -1,12 +1,12 @@
 {
   "name": "@prodkt/animations",
-  "description": "Your favorite animate.css effects available as ES modules for use with the Web Animations API.",
-  "version": "1.2.3",
+  "description": "animate.css effects available as ES modules for use with the Web Animations API.",
+  "version": "1.2.4",
   "homepage": "https://github.com/prodkt-cloud/animations",
   "author": "Bryan Funk",
   "license": "MIT",
-  "main": "dist/tovuti.js",
-  "module": "dist/tovuti.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
   "scripts": {
